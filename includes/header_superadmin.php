@@ -39,8 +39,7 @@ if (!isset($_SESSION['user_id']) || !isset($_SESSION['status'])) {
                 <h1 class="text-2xl font-bold">KlinikaPlus</h1>
                 <nav class="hidden md:flex space-x-6">
                     <a href="index.php" class="hover:text-gray-200 transition">Dashboard</a>
-                    <a href="allusers.php" class="hover:text-gray-200 transition">Users</a>
-                
+                    <a href="allusers.php" class="hover:text-gray-200 transition">All Users</a>
                 </nav>
             </div>
             <div class="flex items-center space-x-6">
